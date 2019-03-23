@@ -18,6 +18,6 @@ As regras para troca de mensagens são:
  • A bolsa de valores e os brokers deverão publicar as mensagens usando uma estrutura de tópicos, do tipo: operacao.acao.  
  
  O diagrama de sequência abaixo exibe um cenário de interação na bolsa de valores entre duas corretoras.  
- ![Diagrama de Sequencia](https://imgur.com/3hbO2Q4)  
+ ![Diagrama de Sequencia](https://i.imgur.com/3hbO2Q4.png)  
  
 
