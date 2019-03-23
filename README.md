@@ -15,5 +15,9 @@ As regras para troca de mensagens são:
  • Brokers podem assinar tópicos relativos às ações que desejam acompanhar.   
  • Sempre que a bolsa de valores recebe ordem de compra ou de venda, ela deve encaminhar essa ordem a todos os brokers interessados naquela ação específica.   
  • Sempre que o valor de uma ORDEM DE COMPRA for maior ou igual ao valor de uma ORDEM DE VENDA para uma mesma ação, a bolsa de valores deve gerar uma mensagem chamada transacao <quant: int, val: real>, e atualizar/remover as ordens da fila.   
- • A bolsa de valores e os brokers deverão publicar as mensagens usando uma estrutura de tópicos, do tipo: operacao.acao.
+ • A bolsa de valores e os brokers deverão publicar as mensagens usando uma estrutura de tópicos, do tipo: operacao.acao.  
+ 
+ O diagrama de sequência abaixo exibe um cenário de interação na bolsa de valores entre duas corretoras.  
+ ![Diagrama de Sequencia](https://imgur.com/3hbO2Q4)  
+ 
 
